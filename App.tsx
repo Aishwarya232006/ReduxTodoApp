@@ -9,7 +9,7 @@ import React from 'react';
 import {Provider} from 'react-redux';
 import {SafeAreaView, StatusBar} from 'react-native';
 import {store} from './src/store';
-import TodoListScreen from './src/screens/TodoListScreen';
+import TodoListScreen from './src/screens/TodoListScreen.js';
 const App = () => {
 return (
 <Provider store={store}>
